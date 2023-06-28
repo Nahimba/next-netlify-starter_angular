@@ -3,15 +3,15 @@
   publish="dist/angular-quickstart"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
-[[redirects]]
   from = "/app-ads.txt"
   to = "/assets/app-ads.txt"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
 
 [[plugins]]
   package = "netlify-plugin-cypress"
