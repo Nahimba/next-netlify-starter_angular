@@ -3,8 +3,8 @@
   publish="dist/angular-quickstart"
 
 [[redirects]]
-  from = "/app-ads.txt"
-  to = "/assets/app-ads.txt"
+  from = "/assets/app-ads.txt"
+  to = "/app-ads.txt"
   status = 200
 
 [[redirects]]
