@@ -1,7 +1,7 @@
 [build]
   command="ng build"
   publish="dist/angular-quickstart"
-
+  
 [[redirects]]
   from = "/app-ads.txt"
   to = "/assets/app-ads.txt"
