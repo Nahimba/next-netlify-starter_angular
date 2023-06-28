@@ -7,6 +7,18 @@
   to = "/index.html"
   status = 200
 
+[[redirects]]
+  from = "/assets/img"
+  to = "/img"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/app-ads.txt"
+  to = "/assets/app-ads.txt"
+  status = 200
+  force = true
+
 [[plugins]]
   package = "netlify-plugin-cypress"
 
