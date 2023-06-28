@@ -1,0 +1,12 @@
+[build]
+  command="ng build"
+  publish="dist/angular-quickstart"
+
+[[plugins]]
+  package = "netlify-plugin-cypress"
+
+  [plugins.inputs.postBuild]
+    enable = false
+
+  [plugins.inputs]
+    enable = false
