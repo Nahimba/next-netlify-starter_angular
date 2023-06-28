@@ -30,6 +30,6 @@
     "strictTemplates": true
   },
   "paths": {
-    "@app-ads.txt": ["assets/app-ads.txt"] // here!
+    "@assets/app-ads.txt": ["app-ads.txt"] // here!
   }
 }
