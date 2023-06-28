@@ -8,12 +8,6 @@
   status = 200
 
 [[redirects]]
-  from = "/img/*"
-  to = "/assets/img/:splat"
-  status = 200
-  force = true
-
-[[redirects]]
   from = "/app-ads.txt"
   to = "/assets/app-ads.txt"
   status = 200
