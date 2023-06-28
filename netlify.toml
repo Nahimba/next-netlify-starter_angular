@@ -8,8 +8,8 @@
   status = 200
 
 [[redirects]]
-  from = "/assets/img"
-  to = "/img"
+  from = "/img"
+  to = "/assets/img"
   status = 200
   force = true
 
